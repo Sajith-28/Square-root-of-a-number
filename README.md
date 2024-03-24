@@ -1,3 +1,6 @@
+## NAME : SAJITH AHAMED F
+## REG NO : 212223240144
+## DATE : 23/03/2024
 # Find the square root of a number
 
 ## AIM:
@@ -16,11 +19,13 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+def newton_method(number,iterations=100):
+    for i in range(iterations):
+        number=0.5*(number+inp/number)
+    return number
+inp=int(input())
+print("Square root of the number:",newton_method(inp))
+
 ```
 
 ## Output:
